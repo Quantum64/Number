@@ -1,11 +1,15 @@
 {
   "name": "number",
   "version": "0.1.0",
+  "homepage": "https://quantum64.github.io/Number",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "decimal.js": "^10.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
